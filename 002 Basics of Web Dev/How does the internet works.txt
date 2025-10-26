@@ -1,0 +1,11 @@
+How the internet works
+
+1. The internet is many computers and devices connected together.
+2. Devices use common rules called protocols (like TCP/IP) to talk.
+3. When you open a website, your device sends a request to the website's server.
+4. The server sends the page back as small pieces called packets.
+5. Routers and switches pass packets between networks to reach their destination.
+6. Packets can take different paths and are reassembled at your device.
+7. DNS is like a phone book — it turns site names into IP addresses.
+8. HTTPS (encryption) keeps your data private while it travels.
+
