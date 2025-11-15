@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop-Down NavBar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            padding: 10px 20px;
+        }
+        .nav-bar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+        .nav-item {
+            position: relative;
+            color: #fff;
+            cursor: pointer;
+            padding: 10px 15px;
+            transition: background-color 0.3s;
+        }
+        .nav-item:hover {
+            background-color: #444;
+        }
+        .dropdown {
+            display: none;
+            position: absolute;
+            top: 40px;
+            left: 0;
+            background-color: #444;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            min-width: 150px;
+            z-index: 1000;
+        }
+        .dropdown-item {
+            color: #fff;
+            padding: 10px 15px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .dropdown-item:hover {
+            background-color: #555;
+        }
+        .nav-item:hover .dropdown {
+            display: block;
+            border: 1px solid #222;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-bar">
+                <li class="nav-item">Home</li>
+                <li class="nav-item">Services
+                    <ul class="dropdown">
+                        <li class="dropdown-item">Web Development</li>
+                        <li class="dropdown-item">App Development</li>
+                        <li class="dropdown-item">SEO</li>
+                    </ul>
+                </li>
+                <li class="nav-item">About</li>
+                <li class="nav-item">Contact</li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
