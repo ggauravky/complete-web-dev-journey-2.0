@@ -39,7 +39,7 @@ if(isReady){
     console.log("yes , it is true")
 }
     
-
+*/
 
 //check if an array is empty or not
 
@@ -51,4 +51,3 @@ if(item.length==0){
     
 }
 
-*/
