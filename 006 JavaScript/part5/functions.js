@@ -60,3 +60,22 @@ const calculate = (price  , quant) => {
 console.log(calculate(22,3));
 
 // const calculate2 = (price  , quant) => price * quant;
+
+function makeTea(typeOfTea){}
+
+function processTeaOrder(teaFunction){
+    return teaFunction("earl gray")
+}
+
+console.log(processTeaOrder(makeTea))
+
+//
+
+function createTeaMaker(){
+    return function(teaType){
+        return `making ${teaType}`
+    };
+}
+
+let teaMaker=createTeaMaker()
+console.log(teaMaker("greenTea"))
