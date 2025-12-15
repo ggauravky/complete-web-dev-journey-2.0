@@ -40,17 +40,18 @@ Version 2.0 of my web development journey. After completing my [first course](ht
 
 ### In Progress
 
-- **TailwindCSS** - Utility-first CSS
-- **JavaScript** - ES6+, async/await
-- **React + Vite** - Components & hooks
-- **Responsive Design** - Mobile-first
+- **JavaScript Advanced** - OOP, DOM manipulation, prototypes
+- **React 19 + Vite** - Modern component architecture
+- **TailwindCSS v4** - Advanced utility patterns
 
 ### Completed
 
-- ✅ HTML5 (semantic, forms, tables)
-- ✅ CSS3 (Flexbox, Grid, animations)
-- ✅ Bootstrap 5
-- ✅ Responsive basics
+- ✅ HTML5 (semantic, forms, tables, accessibility)
+- ✅ CSS3 (Flexbox, Grid, animations, responsive)
+- ✅ Bootstrap 5 (components, grid system)
+- ✅ TailwindCSS basics (utility-first, responsive design)
+- ✅ JavaScript fundamentals (ES6+, data types, functions)
+- ✅ JavaScript intermediate (arrays, loops, conditionals, OOP basics)
 
 ---
 
@@ -59,28 +60,62 @@ Version 2.0 of my web development journey. After completing my [first course](ht
 ```text
 📁 complete-web-dev-journey-2.0/
 ├── 001 Before web dev Journey/
+│   └── VSCode-shortcuts.pdf
 ├── 002 Basics of Web Dev/
+│   ├── Frontend backend and APIs.txt
+│   └── How does the internet works.txt
 ├── 003 HTML/
+│   ├── 001 intro to html.html
+│   ├── 002 emmet_heading_block_vs_inline_more.html
+│   ├── 003 tables.html
+│   ├── 004 forms.html
+│   ├── 005 semantics.html
+│   └── 006_questions_sol.html
 ├── 004 CSS/
-│   ├── Core (selectors, box model)
-│   ├── Layouts (Flexbox, Grid)
-│   └── Projects
+│   ├── Core Files (selectors, boxmodel, index, style.css)
+│   ├── Layouts (flexbox_masterclass, gridbasics, gridMasterClass)
+│   ├── Bootstrap (bootstrap, dropdown_navbar, twitter_style_nav_bar, login)
+│   ├── Responsive (breakPoint)
+│   ├── comming_soon_page/ (Project)
+│   └── mini-project-by-bootstarp/ (Project)
 ├── 005 TailWind/
-│   ├── 000 Tailwind-learning/ (React + Vite)
-│   ├── 001 Tailwind/
-│   └── 002 Login Page/
-└── 006 JavaScript/ (just started)
+│   ├── 000 Tailwind-learning/ (React 19 + Vite 7 + TailwindCSS v4)
+│   ├── 001 Tailwind/ (CLI setup with responsive layouts)
+│   └── 002 Login Page/ (TailwindCSS form project)
+└── 006 JavaScript/
+    ├── helloworld.js
+    ├── part1/ (Basics: datatypes, operations, printing)
+    ├── part2/ (Data types: primitive vs non-primitive)
+    ├── part3/ (Conditionals & challenges)
+    ├── part4/ (Loops & array challenges)
+    ├── part5/ (Functions)
+    ├── part6/ (OOP: constructor functions, prototypes)
+    ├── part7/ (DOM basics)
+    └── part8/ (Advanced DOM manipulation)
 ```
 
 ---
 
-## 🚀 Projects
+## 🚀 Projects & Hands-on Work
 
-1. **Coming Soon Page** - CSS animations
-2. **Bootstrap Landing** - Responsive grid
-3. **TailwindCSS Page** - Utility-first design
-4. **Login Page** - TailwindCSS forms
-5. **React + Vite App** - Components
+### CSS Projects
+
+1. **Coming Soon Page** - CSS animations & responsive design
+2. **Bootstrap Mini Project** - Grid system & components
+3. **Twitter Style Navbar** - Flexbox & responsive navigation
+4. **Dropdown Navbar** - Interactive UI components
+
+### TailwindCSS Projects
+
+5. **Responsive Layouts** - Mobile-first utility design
+6. **Login Page** - Form styling with TailwindCSS
+7. **React + Vite App** - Modern React 19 with TailwindCSS v4
+
+### JavaScript Practice
+
+8. **70+ Challenges** - Arrays, loops, conditionals, functions
+9. **OOP Implementations** - Constructor functions & prototypes
+10. **DOM Manipulation** - Interactive web pages
 
 ---
 
@@ -89,16 +124,30 @@ Version 2.0 of my web development journey. After completing my [first course](ht
 ```bash
 # Clone
 git clone https://github.com/ggauravky/complete-web-dev-journey-2.0.git
+cd complete-web-dev-journey-2.0
 
-# HTML/CSS - open in browser
+# HTML/CSS Projects - open in browser
+# Navigate to 003 HTML/ or 004 CSS/ and open any .html file
 
-# TailwindCSS
+# TailwindCSS CLI Project
 cd "005 TailWind/001 Tailwind"
-npm install && npm run build
+npm install
+npm run build  # Compiles input.css to output.css
 
-# React
+# TailwindCSS Login Page
+cd "005 TailWind/002 Login Page"
+npm install
+npm run build
+
+# React 19 + Vite 7 + TailwindCSS v4
 cd "005 TailWind/000 Tailwind-learning"
-npm install && npm run dev
+npm install
+npm run dev  # Runs on http://localhost:5173
+
+# JavaScript - open in browser or run with Node.js
+cd "006 JavaScript"
+node helloworld.js
+# or open part1/index.html in browser
 ```
 
 ---
@@ -117,24 +166,29 @@ npm install && npm run dev
 
 [Hitesh Choudhary's course](https://www.udemy.com/course/web-dev-master/?couponCode=KEEPLEARNING)
 
-- Advanced CSS & TailwindCSS
-- Modern JavaScript
-- React with Vite
+- ✅ Advanced CSS (Flexbox, Grid, responsive design)
+- ✅ TailwindCSS (utility-first, responsive layouts)
+- ✅ React 19 + Vite 7 setup
+- 🔄 JavaScript (OOP, DOM manipulation, async programming)
+- 🔄 Advanced React (hooks, state management)
 
 ### Phase 3: Coming Soon 🔜
 
+- Backend Development (Node.js + Express.js)
+- Database (MongoDB)
 - TypeScript
 - Next.js
-- Full-stack projects
-- Deployment
+- Full-stack MERN projects
+- Deployment & DevOps
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Learning:** HTML5 • CSS3 • JavaScript • TailwindCSS • React  
-**Tools:** Vite • npm • Git  
-**Next:** Node.js • Express.js • MongoDB
+**Mastered:** HTML5 • CSS3 (Flexbox, Grid) • Bootstrap 5  
+**Current:** JavaScript ES6+ • React 19 • TailwindCSS v4 • Vite 7  
+**Tools:** VS Code • Git/GitHub • npm • Chrome DevTools  
+**Next:** Node.js • Express.js • MongoDB • TypeScript
 
 ---
 
@@ -159,6 +213,6 @@ MIT License - Free to use for learning.
 **Currently learning** 🚀  
 Made with ☕ by [Gaurav](https://github.com/ggauravky)
 
-_Last Updated: November 24, 2025_
+_Last Updated: December 15, 2025_
 
 </div>
