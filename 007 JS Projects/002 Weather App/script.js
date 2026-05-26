@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
     temperatureDisplay.textContent = `Temperature : ${main.temp}`;
     descriptionDisplay.textContent = `Weather : ${weather[0].description}`;
 
-    //unlock the display
+    //unloc k the display
     weatherInfo.classList.remove("hidden");
     errorMessage.classList.add("hidden");
   }
